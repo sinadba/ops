@@ -1,15 +1,17 @@
 :snail: *ops*
 ====================================
 
-本项目fork自<https://github.com/superhj1987/useful-scripts>，基于原项目所做更新如下
-
+本项目fork自[useful-scripts](https://github.com/superhj1987/useful-scripts)。  
+基于原项目做了如下更新。
 - 添加远程主机上执行脚本：[run-remote.sh](run-remote.sh)
 
 ------
-
-把平时有用的手动操作做成脚本，这样可以便捷的使用。 :sparkles:
-
-有自己用的好的脚本 或是 平时常用但没有写成脚本的功能，欢迎提供（[提交Issue](https://github.com/gongice/ops/issues))和分享（[Fork后提交代码](https://github.com/gongice/ops/fork)）！ :sparkling_heart:
+# *TODO*:sparkles:
+- [ ] 更新第二版 [run-remote.sh](run-remote.sh)
+- [ ] 更新doc文档
+- [ ] 整理其他脚本
+-----------------
+ :smile:欢迎[提交Issue](https://github.com/gongice/ops/issues)和[Fork](https://github.com/gongice/ops/fork)！ :sparkling_heart:
 
 :beginner: 快速下载&使用
 ----------------------
