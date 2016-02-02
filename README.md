@@ -1,16 +1,9 @@
 :snail: useful-scripts
 ====================================
 
-本项目fork自<https://github.com/oldratlee/useful-scripts/>，现已经用于公司运维环境中，基于原项目所做更新如下
+本项目fork自<https://github.com/superhj1987/useful-scripts>，基于原项目所做更新如下
 
-- 自安装脚本的修改：[test-cases/self-installer.sh](test-cases/self-installer.sh)
-- Linux守护进程模板: [tpl/run-cmd-tpl.sh](tpl/run-cmd-tpl.sh)
-- 检查当前系统是否运行在虚拟机上: [check-vm.py](check-vm.py)
-
-此外，原项目中以下为本人所贡献代码：
-
-- [show-cpu-and-memory.sh](show-cpu-and-memory.sh)
-- [monitor-host.sh](monitor-host.sh)
+- 添加远程主机上执行脚本：[run-remote.sh](run-remote.sh)
 
 ------
 

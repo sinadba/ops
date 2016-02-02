@@ -6,6 +6,9 @@
 #   $ find-in-jars.sh log4j\\.xml
 #   $ find-in-jars.sh 'log4j\.properties'
 #   $ find-in-jars.sh 'log4j\.properties|log4j\.xml'
+#   $ find-in-jars.sh 'Default.class' -d /path/test.jar
+#   $ find-in-jars.sh 'Default.class' -d /path
+
 #
 # @author Jerry Lee
 
