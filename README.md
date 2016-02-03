@@ -1,8 +1,7 @@
 :snail: *ops*
 ====================================
 
-本项目fork自[useful-scripts](https://github.com/superhj1987/useful-scripts)。  
-基于原项目做了如下更新。
+本项目fork自[useful-scripts](https://github.com/superhj1987/useful-scripts)。  在原项目上做了一下更新。
 - 添加远程主机上执行脚本：[run-remote.sh](run-remote.sh)
 - 添加文件中替换字符：[repstr.sh](repstr.sh)
 - 添加计算文件夹下文件大小：[size](size)
@@ -24,7 +23,7 @@
 curl -fsSL https://raw.githubusercontent.com/gongice/ops/master/test-cases/self-installer.sh | sh
 ```
 
-更多下载&使用方式，参见[下载使用](docs/install.md)。
+[更多下载](https://github.com/gongice/ops/releases)&使用方式，参见[下载使用](docs/install.md)。
 
 :books: 使用文档
 ----------------------

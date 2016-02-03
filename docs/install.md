@@ -9,9 +9,9 @@
 使用简单、方便更新，不过要安装有`git`。
 
 ```bash
-git clone git://github.com/superhj1987/useful-scripts.git
+git clone git://github.com/gongice/ops.git
 
-cd useful-scripts
+cd ops
 
 # 使用Release分支的内容
 git checkout release
@@ -28,9 +28,9 @@ git pull
 当然如果你不想安装`git`,`github`是支持`svn`的：
 
 ```bash
-svn co https://github.com/superhj1987/useful-scripts/branches/release
+svn co https://github.com/gongice/ops/branches/release
 
-cd useful-scripts
+cd ops
 
 # 更新脚本
 svn up
@@ -39,18 +39,18 @@ svn up
 下载和运行单个文件
 -------------------
 
-以[`show-busy-java-threads.sh`](https://raw.github.com/superhj1987/useful-scripts/release/show-busy-java-threads.sh)为例。
+以[`show-busy-java-threads.sh`](https://raw.github.com/gongice/ops/release/show-busy-java-threads.sh)为例。
 
 ### `curl`文件直接用`bash`运行
 
 ```bash
-curl -sLk 'https://raw.github.com/superhj1987/useful-scripts/release/show-busy-java-threads.sh' | bash
+curl -sLk 'https://raw.github.com/gongice/ops/release/show-busy-java-threads.sh' | bash
 ```
 
 ### 下载单个文件
 
 ```bash
-wget --no-check-certificate https://raw.github.com/superhj1987/useful-scripts/release/show-busy-java-threads.sh
+wget --no-check-certificate https://raw.github.com/gongice/ops/release/show-busy-java-threads.sh
 chmod +x show-busy-java-threads.sh
 
 ./show-busy-java-threads.sh
