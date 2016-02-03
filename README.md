@@ -5,6 +5,7 @@
 基于原项目做了如下更新。
 - 添加远程主机上执行脚本：[run-remote.sh](run-remote.sh)
 - 添加文件中替换字符：[repstr.sh](repstr.sh)
+- 添加计算文件夹下文件大小：[size](size)
 
 ------
 # *TODO*:sparkles:

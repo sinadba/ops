@@ -1,0 +1,43 @@
+#!/bin/bash
+#
+# @CreationTime
+#   2016/2/3 上午9:50:44
+# @ModificationDate
+#   2016/2/3 下午4:14:42
+# @Function
+#  计算文件夹下所有文件大小总和
+# @Usage
+#   $ ./size /path
+#
+# @author gongice
+
+PROG=`basename $0`
+
+usage() {
+cat <<EOF
+Computing directory total file size(recursion).
+Default:current path
+Usage: ${PROG} /path
+Example:
+ ${PROG}
+ ${PROG} /home
+EOF
+  exit $1
+}
+
+ARGS=`getopt -a -o h -l help -- "$@"`
+eval set -- "${ARGS}"
+
+while true; do
+    case "$1" in
+    -h|--help)
+        usage
+        ;;
+    --)
+        shift
+        break
+        ;;
+    esac
+done
+
+find $1 -type f -printf %s\\n | paste -sd+ | bc
