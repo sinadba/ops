@@ -36,7 +36,7 @@ curl -fsSL https://raw.githubusercontent.com/gongice/ops/master/test-cases/self-
 1. [find-in-jars.sh](docs/java.md#beer-find-in-jarssh)  
     在目录下所有`jar`文件里，查找类或资源文件。
 
-### :alarm_clock: [`VCS`相关脚本](docs/vcs.md)
+### :watch: [`VCS`相关脚本](docs/vcs.md)
 
 1. [swtrunk.sh](docs/vcs.md#beer-swtrunksh)  
     自动`svn`工作目录从分支（`branches`）切换到主干（`trunk`）。
