@@ -1,0 +1,82 @@
+#!/bin/bash
+#
+# @CreationTime
+#   2016/2/3 下午4:35:06
+# @ModificationDate
+#   2016/2/3 下午4:35:06
+# @Function
+#  将文件追加到另一个文件末尾
+# @Usage
+#   $ append file1 file2
+#
+# @author gongice
+
+readonly TMPFILE=".append"
+TIMESTAMP=`date '+%s'`
+PROG=`basename $0`
+
+usage() {
+    cat <<EOF
+Usage: ${PROG} [OPTION]... PATTERN
+Append file1 to file2
+Example:
+${PROG} file1                 (append file1 to file1)
+${PROG} file1 file2           (append file1 to file2)
+${PROG} file1 file2 -n        (will apend file1 and file2 to  a new file like 1454490504.tmp)
+${PROG} file1 file2 -nfile3   (apend file1 and file2 to file3,will creat a new file if file3 is not exists)
+${PROG} file1 file2 -n=file3  (apend file1 and file2 to file3,will creat a new file if file3 is not exists)
+
+Options:
+    -n, --new       create a new file in current path to append
+    -h, --help      display this help and exit
+EOF
+    exit $1
+}
+
+ARGS=`getopt -a -o n::h -l new::,help -- "$@"`
+
+[ $? -ne 0 ] && usage 1
+eval set -- "${ARGS}"
+
+while true; do
+    case "$1" in
+    -h|--help)
+        usage
+        ;;
+    -n|--new)
+    case "$2" in
+    "")
+      new="yes"
+      newFile=$TIMESTAMP$TMPFILE
+      #echo "null -n:"$newFile
+      shift 2;
+    ;;
+    *)
+      new="yes"
+      newFile=$2
+      #echo "any -n:"$newFile
+      shift 2;
+    ;;
+    esac
+        ;;
+    --)
+        shift
+        break
+        ;;
+    esac
+done
+[ -z "$1" ] && { echo No find file pattern! ; usage 1; }
+
+#echo "参数个数:"$#
+file1=$1
+file2=$1
+if [ $# -eq 2 ] ; then
+file2=$2
+fi
+
+if test -z "$new" ; then
+	cat $file1 | tee >> $file2
+else
+	cat $file1 | tee >> $newFile
+	cat $file2 | tee >> $newFile
+fi
