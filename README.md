@@ -4,10 +4,11 @@
 本项目fork自[useful-scripts](https://github.com/superhj1987/useful-scripts)。  
 基于原项目做了如下更新。
 - 添加远程主机上执行脚本：[run-remote.sh](run-remote.sh)
+- 添加文件中替换字符：[repstr.sh](repstr.sh)
 
 ------
 # *TODO*:sparkles:
-- [ ] 更新第二版 [run-remote.sh](run-remote.sh)
+- [x] 更新第二版 [run-remote.sh](run-remote.sh)
 - [ ] 更新doc文档
 - [ ] 整理其他脚本
 
