@@ -2,6 +2,7 @@
 ====================================
 
 本项目fork自:point_right:[useful-scripts](https://github.com/superhj1987/useful-scripts)。  在原项目上做了以下更新:arrow_up:
+- 添加在远程主机执行脚本：[run-remote.sh](run-remote.sh)
 - 添加文件中替换字符：[repstr.sh](repstr.sh)
 - 添加计算文件夹下文件大小：[size](size)
 - 添加文件追加：[append](append)
