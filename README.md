@@ -22,7 +22,7 @@
 curl -fsSL https://raw.githubusercontent.com/gongice/ops/master/test-cases/self-installer.sh | sh
 ```
 
-:point_right:[更多下载](https://github.com/gongice/ops/releases)&使用方式，参见:notebook_with_decorative_cover:[帮助文档](docs/install.md)。
+:point_right:[更多下载](https://github.com/gongice/ops/releases)&使用方式，参见:open_file_folder:[帮助文档](docs/install.md)。
 
 :books: 文档
 ----------------------
