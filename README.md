@@ -1,7 +1,7 @@
 :snail: *ops*
 ====================================
 
-本项目fork自[useful-scripts](https://github.com/superhj1987/useful-scripts)。  在原项目上做了一下更新。
+本项目fork自[useful-scripts](https://github.com/superhj1987/useful-scripts)。  在原项目上做了以下更新。
 - 添加远程主机上执行脚本：[run-remote.sh](run-remote.sh)
 - 添加文件中替换字符：[repstr.sh](repstr.sh)
 - 添加计算文件夹下文件大小：[size](size)
