@@ -1,8 +1,7 @@
-:snail: *ops*
+:sheep: *ops*
 ====================================
 
-本项目fork自[useful-scripts](https://github.com/superhj1987/useful-scripts)。  在原项目上做了以下更新。
-- 添加远程主机上执行脚本：[run-remote.sh](run-remote.sh)
+本项目fork自:link:[useful-scripts](https://github.com/superhj1987/useful-scripts)。  在原项目上做了以下更新:arrow_up:
 - 添加文件中替换字符：[repstr.sh](repstr.sh)
 - 添加计算文件夹下文件大小：[size](size)
 - 添加文件追加：[append](append)
@@ -10,11 +9,11 @@
 ------
 # *TODO*:sparkles:
 - [x] 更新第二版 [run-remote.sh](run-remote.sh)
-- [ ] 更新doc文档
-- [ ] 整理其他脚本
+- [ ] :pencil2:更新doc文档:soon:
+- [ ] :pencil2:整理其他脚本:soon:
 
 -----------------
- :smile:欢迎[提交Issue](https://github.com/gongice/ops/issues)和[Fork](https://github.com/gongice/ops/fork)！ :sparkling_heart:
+ :smile:欢迎[提交Issue](https://github.com/gongice/ops/issues)和:point_right:[Fork](https://github.com/gongice/ops/fork)！ :sparkling_heart:
 
 :beginner: 快速下载&使用
 ----------------------
@@ -23,9 +22,9 @@
 curl -fsSL https://raw.githubusercontent.com/gongice/ops/master/test-cases/self-installer.sh | sh
 ```
 
-[更多下载](https://github.com/gongice/ops/releases)&使用方式，参见[下载使用](docs/install.md)。
+:link:[更多下载](https://github.com/gongice/ops/releases)&使用方式，参见:link:[帮助文档](docs/install.md)。
 
-:books: 使用文档
+:books: 文档
 ----------------------
 
 ### :coffee: [`Java`相关脚本](docs/java.md)
@@ -37,7 +36,7 @@ curl -fsSL https://raw.githubusercontent.com/gongice/ops/master/test-cases/self-
 1. [find-in-jars.sh](docs/java.md#beer-find-in-jarssh)  
     在目录下所有`jar`文件里，查找类或资源文件。
 
-### :watch: [`VCS`相关脚本](docs/vcs.md)
+### :alarm_clock: [`VCS`相关脚本](docs/vcs.md)
 
 1. [swtrunk.sh](docs/vcs.md#beer-swtrunksh)  
     自动`svn`工作目录从分支（`branches`）切换到主干（`trunk`）。
