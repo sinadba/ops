@@ -1,7 +1,7 @@
 :sheep: *ops*
 ====================================
 
-本项目fork自:link:[useful-scripts](https://github.com/superhj1987/useful-scripts)。  在原项目上做了以下更新:arrow_up:
+本项目fork自:point_right:[useful-scripts](https://github.com/superhj1987/useful-scripts)。  在原项目上做了以下更新:arrow_up:
 - 添加文件中替换字符：[repstr.sh](repstr.sh)
 - 添加计算文件夹下文件大小：[size](size)
 - 添加文件追加：[append](append)
@@ -22,7 +22,7 @@
 curl -fsSL https://raw.githubusercontent.com/gongice/ops/master/test-cases/self-installer.sh | sh
 ```
 
-:link:[更多下载](https://github.com/gongice/ops/releases)&使用方式，参见:link:[帮助文档](docs/install.md)。
+:point_right:[更多下载](https://github.com/gongice/ops/releases)&使用方式，参见:notebook_with_decorative_cover:[帮助文档](docs/install.md)。
 
 :books: 文档
 ----------------------
