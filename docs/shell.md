@@ -3,7 +3,7 @@
 
 包含`Shell`使用或命令加强的脚本。
 
-:beer: [c](../c)
+:beer: [c](../bin/c)
 ----------------------
 
 原样命令行输出，并拷贝标准输出到系统剪贴板，省去`CTRL+C`，`CTRL+V`操作。支持`Linux`、`Mac`、`Windows`（`cygwin`、`MSSYS`）。
@@ -34,7 +34,7 @@ $ echo -e 'a\nb' | nl | c
 
 [拷贝复制命令行输出放在系统剪贴板上](http://oldratlee.com/post/2012-12-23/command-output-to-clip)，给出了不同系统可用命令。
 
-:beer: [colines](../colines)
+:beer: [colines](../bin/colines)
 ----------------------
 
 彩色`cat`出文件行，方便人眼区分不同的行。
@@ -67,7 +67,7 @@ file2 line2
 
 注：上面显示中，没有彩色，在控制台上运行可以看出彩色效果。
 
-:beer: [a2l](../a2l)
+:beer: [a2l](../bin/a2l)
 ----------------------
 
 按行彩色输出参数，方便人眼查看。
@@ -94,7 +94,7 @@ test-cases/self-installer.sh
 
 注：上面显示中，没有彩色，在控制台上运行可以看出彩色效果。
 
-:beer: [echo-args.sh](../echo-args.sh)
+:beer: [echo-args.sh](../bin/echo-args.sh)
 ----------------------
 
 在编写脚本时，常常要确认输入参数是否是期望的：参数个数，参数值（可能包含有人眼不容易发现的空格问题）。
@@ -120,7 +120,7 @@ $ ./echo-args.sh 1 "  2 foo  " "3        3"
 
 这样可以不改其它的程序，查看到输入参数的信息。
 
-:beer: [console-text-color-themes.sh](../console-text-color-themes.sh)
+:beer: [console-text-color-themes.sh](../bin/console-text-color-themes.sh)
 ----------------------
 
 显示`Terminator`的全部文字彩色组合的效果及其打印方式。
@@ -150,7 +150,7 @@ colorEchoWithoutNewLine "4;33;40" "Hello world!" "Hello Hell!"
 
 - [utensil](https://github.com/utensil)的[在Bash下输出彩色的文本](http://utensil.github.io/tech/2007/09/10/colorful-bash.html)，这是篇很有信息量很钻研的文章！
 
-:beer: [tcp-connection-state-counter.sh](../tcp-connection-state-counter.sh)
+:beer: [tcp-connection-state-counter.sh](../bin/tcp-connection-state-counter.sh)
 ----------------------
 
 统计各个`TCP`连接状态的个数。
@@ -176,7 +176,7 @@ TIME_WAIT    212
 SYN_SENT     17
 ```
 
-:beer: [parseOpts.sh](../parseOpts.sh)
+:beer: [parseOpts.sh](../bin/parseOpts.sh)
 ----------------------
 
 提供命令行选项解析函数`parseOpts`，支持选项的值有多个值（即数组）。  
@@ -275,7 +275,7 @@ parseOpts "a,a-long|b,b-long:|c,c-long+" -a -b bv -- --c-long c.sh -p pv -q qv a
 
 [Khotyn Huang](https://github.com/khotyn)指出`bash` `3.0`下使用有问题，并提供`bash` `3.0`的测试机器。
 
-:beer: [xpl](../xpl) and [xpf](../xpf)
+:beer: [xpl](../bin/xpl) and [xpf](../bin/xpf)
 ----------------------
 
 * `xpl`：在文件浏览器中打开指定的文件或文件夹。  
@@ -311,7 +311,7 @@ xpf /path/to/dir1 /path/to/foo1.txt
 
 [Linhua Tan](https://github.com/toolchainX)修复Linux的选定Bug。
 
-:beer: [show-cpu-and-memory.sh](../show-cpu-and-memory.sh)
+:beer: [show-cpu-and-memory.sh](../bin/show-cpu-and-memory.sh)
 ----------------------
 
 显示当前cpu和内存使用状况，包括全局和各个进程的。
@@ -320,7 +320,7 @@ xpf /path/to/dir1 /path/to/foo1.txt
 
 直接执行即可
 
-:beer: [monitor-host.sh](../monitor-host.sh)
+:beer: [monitor-host.sh](../bin/monitor-host.sh)
 ----------------------
 
 监控当前的内存、cpu、io以及网络状况，写入相应的log文件。
@@ -329,7 +329,7 @@ xpf /path/to/dir1 /path/to/foo1.txt
 
 建议使用crontab，定时调用此脚本
 
-:beer: [tpl/run-cmd-tpl.sh](../tpl/run-cmd-tpl.sh)
+:beer: [tpl/run-cmd-tpl.sh](../bin/tpl/run-cmd-tpl.sh)
 ----------------------
 
 linux下后台执行守护程序的模板shell脚本。
@@ -345,7 +345,7 @@ STOP_COMMAND="kill -9"
 NAME="OM Switch Monitor"
 </pre>
 
-:beer: [check-vm.py](../check-vm.py)
+:beer: [check-vm.py](../bin/check-vm.py)
 ----------------------
 
 检查当前linux是否是在虚拟机上，包括openvz/xen、pv/uml、VmWare。

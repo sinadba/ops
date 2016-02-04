@@ -2,15 +2,15 @@
 ====================================
 
 本项目Fork自:point_right:[useful-scripts](https://github.com/superhj1987/useful-scripts)。  在原项目上做了以下更新:arrow_up:
-- 添加在远程主机执行脚本：[run-remote.sh](run-remote.sh)
-- 添加文件中替换字符：[repstr.sh](repstr.sh)
-- 添加计算文件夹下文件大小：[size](size)
-- 添加文件追加：[append](append)
-- 添加storm 守护进程脚本：[storm/stormDaemon.sh](storm/stormDaemon.sh):point_right:[作者](https://github.com/jeremychen/StormDeamon)
+- 添加在远程主机执行脚本：[run-remote.sh](bin/run-remote.sh)
+- 添加文件中替换字符：[repstr.sh](bin/repstr.sh)
+- 添加计算文件夹下文件大小：[size](bin/size)
+- 添加文件追加：[append](bin/append)
+- 添加storm 守护进程脚本：[stormDaemon.sh](bin/storm/stormDaemon.sh):point_right:[作者](https://github.com/jeremychen/StormDeamon)
 
 ------
 # *TODO*:sparkles:
-- [x] 更新第二版 [run-remote.sh](run-remote.sh)
+- [x] 更新第二版 [run-remote.sh](bin/run-remote.sh)
 - [ ] :pencil2:更新doc文档:soon:
 - [ ] :pencil2:整理其他脚本:soon:
 
