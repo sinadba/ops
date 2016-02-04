@@ -6,6 +6,7 @@
 - 添加文件中替换字符：[repstr.sh](repstr.sh)
 - 添加计算文件夹下文件大小：[size](size)
 - 添加文件追加：[append](append)
+- 添加storm 守护进程脚本：[storm/stormDaemon.sh](storm/stormDaemon.sh):point_right:[作者](https://github.com/jeremychen/StormDeamon)
 
 ------
 # *TODO*:sparkles:
