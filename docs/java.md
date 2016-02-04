@@ -1,7 +1,7 @@
 :snail: `Java`相关脚本
 ====================================
 
-:beer: [show-busy-java-threads.sh](../show-busy-java-threads.sh)
+:beer: [show-busy-java-threads.sh](../bin/show-busy-java-threads.sh)
 ----------------------
 
 在排查`Java`的`CPU`性能问题时(`top us`值过高)，要找出`Java`进程中消耗`CPU`多的线程，并查看它的线程栈，从而找出导致性能问题的方法调用。
@@ -29,7 +29,7 @@ sudo show-busy-java-threads.sh
 ### 示例
 
 ```bash
-$ show-busy-java-threads.sh 
+$ show-busy-java-threads.sh
 [1] Busy(57.0%) thread(23355/0x5b3b) stack of java process(23269) under user(admin):
 "pool-1-thread-1" prio=10 tid=0x000000005b5c5000 nid=0x5b3b runnable [0x000000004062c000]
    java.lang.Thread.State: RUNNABLE
@@ -77,7 +77,7 @@ $ show-busy-java-threads.sh
     - 优化性能，通过`read -a`简化反复的`awk`操作 #51
     - 发现并解决`jstack`非当前用户`Java`进程的问题 #50
 
-:beer: [show-duplicate-java-classes](../show-duplicate-java-classes)
+:beer: [show-duplicate-java-classes](../bin/show-duplicate-java-classes)
 ----------------------
 
 找出`java`库（即`jar`文件）或`class`目录中的重复类。
@@ -166,7 +166,7 @@ class paths to find:
 
 [tgic](https://github.com/tg123)提供此脚本。友情贡献者的链接[commandlinefu.cn](http://commandlinefu.cn/)|[微博linux命令行精选](http://weibo.com/u/2674868673)
 
-:beer: [find-in-jars.sh](../find-in-jars.sh)
+:beer: [find-in-jars.sh](../bin/find-in-jars.sh)
 ----------------------
 
 在当前目录下所有`jar`文件里，查找类或资源文件。
