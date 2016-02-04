@@ -1,11 +1,11 @@
 #!/bin/bash
 
 if which svn &> /dev/null; then
-	if [ ! -d "/tmp/useful-scripts-$USER" ]; then
-		svn checkout https://github.com/superhj1987/useful-scripts/trunk "/tmp/useful-scripts-$USER"
-		echo 'export PATH="$PATH:/tmp/useful-scripts-$USER"' >> ~/.bash_profile
+	if [ ! -d "/tmp/ops-$USER" ]; then
+		svn checkout https://github.com/gongice/ops/trunk "/tmp/ops-$USER"
+		echo 'export PATH="$PATH:/tmp/ops-$USER/bin"' >> ~/.bash_profile
 	else
-		cd /tmp/useful-scripts-$USER
+		cd /tmp/ops-$USER
 		svn up
 	fi
 fi
