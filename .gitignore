@@ -7,3 +7,4 @@ target
 *.iml
 out
 .remote-sync.json
+*.baiduyun.uploading.cfg
