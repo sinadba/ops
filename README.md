@@ -9,7 +9,7 @@
 1. 添加文件追加：[append](bin/append)
 1. 添加storm 守护进程脚本：[stormDaemon.sh](bin/storm/stormDaemon.sh):point_right:[作者](https://github.com/jeremychen/StormDeamon)
 1. 添加zookeeper快照和日志清理：[czsl.sh](bin/zk/czsl.sh)
-1. 添加kafka日志清理：[ckl.sh](bin/kafka/zkl.sh)
+1. 添加kafka日志清理：[ckl.sh](bin/kafka/ckl.sh)
 
 ------
 # *TODO*:sparkles:
