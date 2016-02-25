@@ -17,7 +17,7 @@ sudomode=''
 
 usage() {
     cat <<EOF
-    Clean kafka log.
+    Check the open port.
     Usage:
           ${PROG} -v 6
     Options:
